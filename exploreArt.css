@@ -1,0 +1,186 @@
+
+body {
+    font-family: 'Kaisei Decol';
+    margin: 0;
+    background-color: black;
+    animation: transitionIn 0.15s;
+    scroll-behavior: smooth;
+}
+
+.exploreart {
+    background-color: rgb(165, 122, 169);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.exploreart-content {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.exploreart-content h1 {
+    max-width: 600px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+
+
+
+
+.exploreart {
+background-color: rgb(6, 6, 6);
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+padding: 10px;
+}
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.column {
+    width: 30%; 
+    margin: 10px;
+}
+
+.large-column {
+    width: 30%;
+    margin: 10px;
+}
+
+.column img,
+.large-column img {
+    width: 100%;
+    height: auto;  
+    display: block;
+   
+    margin-bottom: 10px;
+}
+
+.custom-size {
+    width: 100%;
+    max-height: 1000px; 
+    object-fit: cover;
+}
+
+.column:first-child,
+.column:last-child {
+    margin-top: 100px; 
+}
+@keyframes transitionIn{
+    from{
+       opacity: 0;
+       transform: rotateX(-10deg)
+    }
+    to{
+      opacity:1;
+      transform:rotateX('0');
+    }
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #f5f5f5;
+    color: #125688;
+  }
+  
+  .fa-twitter {
+    background: #f5f5f5;
+    color: #125688;
+  }
+  
+  .fa-google {
+    background: #f5f5f5;
+    color: #125688;
+  }
+  
+  
+  
+  
+  .fa-instagram {
+    background: #f5f5f5;
+    color: #125688;
+    size: 50px;
+  }
+  @media (max-width: 500px) {
+    .container {
+        padding: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .column,
+    .large-column {
+        width: 100%; 
+        margin: 5px; 
+    }
+    .fa-facebook {
+        background: #f5f5f5;
+        color:  rgb(131, 10, 10);;
+      }
+      
+      .fa-twitter {
+        background: #f5f5f5;
+        color: rgb(131, 10, 10);;
+      }
+      
+      .fa-google {
+        background: #f5f5f5;
+        color:  rgb(131, 10, 10);
+      }
+       
+  .fa-instagram {
+    background: #f5f5f5;
+    color: rgb(131, 10, 10);;
+    size: 50px;
+  }
+
+}
+@media (min-width: 501px) and (max-width: 800px){
+    .column,
+    .large-column {
+        width: 100%; 
+        margin: 5px; 
+    }
+    .fa-facebook {
+        background: #f5f5f5;
+        color:  rgb(211, 77, 33);
+      }
+      
+      .fa-twitter {
+        background: #f5f5f5;
+        color: rgb(211, 77, 33);
+      }
+      
+      .fa-google {
+        background: #f5f5f5;
+        color:  rgb(211, 77, 33);
+      }
+       
+  .fa-instagram {
+    background: #f5f5f5;
+    color: rgb(211, 77, 33);
+    size: 50px;
+  }
+
+}
